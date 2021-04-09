@@ -5,6 +5,8 @@ import './index.css';
 import Home from './pages/Home/App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './pages/Login/Login';
+import Paciente from './pages/Paciente/Paciente';
+import Agenda from './pages/Agenda/Agenda';
 
 const Pagina404 = () => <div>Página 404</div>;
 
@@ -13,6 +15,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/" component={Login} exact />
       <Route path="/Home" component={Home} exact />
+      <Route path="/Paciente" component={Paciente} exact />
+      <Route path="/Agenda" component={Agenda} exact />
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,

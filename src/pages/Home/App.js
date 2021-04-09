@@ -5,9 +5,7 @@ import Footer from '../../components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      {/* <h1>teste</h1>
-      pagina principal */}
+    <div style={{ background: '#61dafb' }}>
       <Menu />
       teste
       <Footer />
