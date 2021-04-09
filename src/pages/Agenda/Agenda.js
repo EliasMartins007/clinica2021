@@ -1,5 +1,14 @@
 import React from 'react';
+import Menu from '../../components/Menu';
+import Footer from '../../components/Footer';
+
 function t() {
-  return <div>Agenda</div>;
+  return (
+    <div style={{ background: '#61dafb' }}>
+      <Menu />
+      Agenda
+      <Footer />
+    </div>
+  );
 }
 export default t;
