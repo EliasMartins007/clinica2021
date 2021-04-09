@@ -6,15 +6,15 @@ import Home from './pages/Home/App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './pages/Login/Login';
 
+const Pagina404 = () => <div>Página 404</div>;
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/Login" component={Login} exact />
-      <Route path="/" component={Home} exact />
+      <Route path="/" component={Login} exact />
+      <Route path="/Home" component={Home} exact />
+      <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
   document.getElementById('root')
 );
