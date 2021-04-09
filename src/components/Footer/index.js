@@ -6,7 +6,7 @@ function Footer() {
   return (
     <FooterBase>
       <img className="Logo" src={Logo} alt="Logo" />
-      <p>Realizado para o PA do IGTI </p>
+      <p></p>
       2021 TODOS OS DIREITO RESERVADOS
       <address>e-mail teste@gmail.com</address>
     </FooterBase>

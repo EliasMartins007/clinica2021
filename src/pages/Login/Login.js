@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Login.css';
 import { Link } from 'react-router-dom';
-
-//teste 28/03/2021 pageDefault cabeça e footer
+//componentes
 import Button from '../../components/Button'; //'../Button';
-
 import PageDefaultLogin from '../../components/inicial';
 //fim teste 28
 
@@ -52,9 +50,15 @@ export default function Login({ setToken }) {
             />
           </label>
           <div>
+            {/* <button type="submit">Submit</button> */}
+
             <Button as={Link} className="ButtonLink" to="/Home">
               Entrar
             </Button>
+
+            {/* <Link to={`/Paciente`} activeClassName="current">
+              paciente
+            </Link> */}
           </div>
         </form>
       </PageDefaultLogin>

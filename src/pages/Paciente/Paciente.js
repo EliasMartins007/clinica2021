@@ -10,7 +10,23 @@ function pac() {
       paciente
       <Footer /> */}
       <PageDefault>
-        teste
+        Cadastro de pacientes
+        <div className="customer--list">
+          <table className="table">
+            <thead key="thead">
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Addess</th>
+                <th>Description</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
         <button>Cadastrar</button>
       </PageDefault>
     </div>
